@@ -1,18 +1,11 @@
-<link href="/css/layout.css" ref="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/layout.css">
 
 <head>
-    <div class="head_text">I am in the head!</div>
+    <div class="head_text">Personal Details</div>
 </head>
-<body>
-
+<body align="middle">
     <%=yield%>
 
 </body>
 <footer>
-<% letter_arr = [*('a'..'z')]%>
-<% number_arr = [*(1..25)]%>
-<% letter_arr %>
-    <div class="footer_text">Brought to you by the letter <%=letter_arr.sample.upcase%>...</div>
-    <div class="footer_text">And the number <%= number_arr.sample %>!</div>
-
 </footer>
