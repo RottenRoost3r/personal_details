@@ -1,12 +1,17 @@
 .name_input {
-    width: 45vw;
+    width: 13vw;
     border-bottom: none;
-    border-top: 2px solid orange;
-    border-right: 2px solid orange;
-    border-left: 2px solid orange;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: none;
     background: none;
     margin: 1vw;
     
+}
+
+form{
+    width: 29vw;
+    margin-left: 35vw;
 }
 ::placeholder{
     color:black;
@@ -23,7 +28,7 @@
     border-style: inset;
     border-color: silver;
     color: black;
-    background-color: red;
+    background-color: green;
     font-family: fantasy;
     font-size: 20;
 }
@@ -36,7 +41,7 @@ input_submit{
     padding: 2vw;
     border-style: outset;
     border-radius: 100vw 1vw;
-    background-color: steelblue;
+    background-image: url(https://images.pexels.com/photos/479453/pexels-photo-479453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     margin-top: 75;
     box-shadow: 5px 10px;
 }

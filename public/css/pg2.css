@@ -1,0 +1,73 @@
+form{
+    width: 26vw;
+    margin-left: 35vw;
+    margin-top: 5vw;
+}
+
+.address_container{
+    padding: 2vw;
+    border-style: outset;
+    border-radius: 100vw 1vw;
+    background-image: url(https://images.pexels.com/photos/479453/pexels-photo-479453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    margin-top: 75;
+    margin-left: -5vw;
+    box-shadow: 5px 10px;
+    
+}
+
+::placeholder{
+    color:black;
+}
+
+.street_input{
+    border: none;
+    background: transparent;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    margin-top: 1vw;
+}
+
+.city_input{
+    border: none;
+    background: transparent;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    margin-top: 1vw;
+
+}
+
+.state_input{
+    border: none;
+    background: transparent;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    margin-top: 1vw;
+}
+
+.zip_input{
+    border: none;
+    background: transparent;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    margin-top: 1vw;
+}
+
+.address_container{
+    padding: 2vw;
+}
+
+.button{
+    padding: 2vw;
+    height: 8vw;
+    width: 8vw;
+    border-radius: 50%;
+    border-style: inset;
+    border-color: silver;
+    color: black;
+    background-color: green;
+    font-family: fantasy;
+    font-size: 20;
+}
+.here{
+    padding: 2vw;
+}
