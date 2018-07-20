@@ -1,0 +1,23 @@
+.results{
+    padding: 2vw;
+    width: 50vw;
+    margin-left: 22vw;
+    border-style: outset;
+    background-image: url(https://images.pexels.com/photos/479453/pexels-photo-479453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    margin-top: -29px;
+    box-shadow: 5px 10px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 2vw;
+}
+
+.ty{
+    padding: 2vw;
+    border-style: groove;
+    width: 8vw;
+    height: 3vw;
+    font-size: 21;
+    background-color: white;
+    margin-left: 42vw;
+    margin-top: 2vw;
+}
