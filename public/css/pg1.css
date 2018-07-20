@@ -1,17 +1,45 @@
 .name_input {
     width: 45vw;
-    border: none;
-    border-bottom: 2px solid brown;
-    border-right: 2px solid brown;
+    border-bottom: none;
+    border-top: 2px solid orange;
+    border-right: 2px solid orange;
+    border-left: 2px solid orange;
     background: none;
     margin: 1vw;
-    opacity: 0.7;
+    
+}
+::placeholder{
+    color:black;
+}
+
+.here{
+    padding: 2vw;
+}
+.button{
+    padding: 2vw;
+    height: 8vw;
+    width: 8vw;
+    border-radius: 50%;
+    border-style: inset;
+    border-color: silver;
+    color: black;
+    background-color: red;
+    font-family: fantasy;
+    font-size: 20;
+}
+
+input_submit{
     
 }
 
-form {
-    padding: 5vw ;
-   
+.input_names_container{
+    padding: 2vw;
+    border-style: outset;
+    border-radius: 100vw 1vw;
+    background-color: steelblue;
+    margin-top: 75;
+    box-shadow: 5px 10px;
 }
-}
+
+
 
